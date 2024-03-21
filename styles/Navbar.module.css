@@ -42,8 +42,9 @@
    }
    
    .hiremebtn{
+    text-decoration: none;
      height: 40px;
-     background-color: rgb(32, 23, 207);
+     background-color: rgb(10, 84, 244);
      color: white;
      padding: 10px 15px;
      border-radius: 10px;

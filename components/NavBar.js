@@ -13,9 +13,9 @@ const NavBar = () => {
           <li><a href="#projects">Projects</a></li>
         </ul>
 
-        <button className={style.hiremebtn}>
+        <a href='mailto:nomannaeem985@gmail.com' className={style.hiremebtn}>
           Hire Me
-        </button>
+        </a>
       </nav>
   )
 }
