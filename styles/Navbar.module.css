@@ -1,0 +1,64 @@
+.navbar{
+    background-color: black;
+    color: white;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 70px;
+   }
+   
+   .Logo{
+     font-size: 35px;
+   }
+   
+   .LinkContainer{
+     list-style: none;
+     display: flex;
+     width: 30%;
+     justify-content: space-between;
+   }
+   
+   
+   .LinkContainer > li >  a{
+    font-size: 18px;
+    position: relative;
+    padding-bottom: 0.75rem;
+     text-decoration: none;
+     color: inherit;
+     border-radius: 10px;
+   }
+   .LinkContainer > li >  a:after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(25, 141, 235);
+    transition: all 0.3s ease;
+   }
+   .LinkContainer > li >  a:hover::after{
+    width: 100%;
+   }
+   
+   .hiremebtn{
+     height: 40px;
+     background-color: rgb(32, 23, 207);
+     color: white;
+     padding: 10px 15px;
+     border-radius: 10px;
+     border: none;
+     transition: transform 70ms linear;
+   }
+   .hiremebtn:hover{
+     cursor: pointer;
+     transform: scale(1.07);
+   }
+
+
+   @media (max-width: 600px) {
+    .LinkContainer{
+      display: none;
+    }
+    
+   }
