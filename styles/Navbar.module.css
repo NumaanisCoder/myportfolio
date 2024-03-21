@@ -61,5 +61,9 @@
     .LinkContainer{
       display: none;
     }
+    .navbar{
+      justify-content: space-between;
+      margin: 0 20px;
+    }
     
    }
